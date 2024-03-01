@@ -41,6 +41,10 @@ namespace Example
         {
             Configuration config = new Configuration();
             config.BasePath = "https://payment-processor.api.gogemini.io";
+            // Configure API key authorization: Authorization
+            config.AddApiKey("Authorization", "YOUR_API_KEY");
+            // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
+            // config.AddApiKeyPrefix("Authorization", "Bearer");
 
             var apiInstance = new PaymentprocessorApi(config);
             var body = new PaymentprocessorAuthorizePaymentRequest(); // PaymentprocessorAuthorizePaymentRequest | 
@@ -94,7 +98,7 @@ catch (ApiException e)
 
 ### Authorization
 
-No authorization required
+[Authorization](../README.md#Authorization)
 
 ### HTTP request headers
 
@@ -134,6 +138,10 @@ namespace Example
         {
             Configuration config = new Configuration();
             config.BasePath = "https://payment-processor.api.gogemini.io";
+            // Configure API key authorization: Authorization
+            config.AddApiKey("Authorization", "YOUR_API_KEY");
+            // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
+            // config.AddApiKeyPrefix("Authorization", "Bearer");
 
             var apiInstance = new PaymentprocessorApi(config);
             var body = new PaymentprocessorCreatePaymentMethodRequest(); // PaymentprocessorCreatePaymentMethodRequest | 
@@ -187,7 +195,7 @@ catch (ApiException e)
 
 ### Authorization
 
-No authorization required
+[Authorization](../README.md#Authorization)
 
 ### HTTP request headers
 
@@ -227,6 +235,10 @@ namespace Example
         {
             Configuration config = new Configuration();
             config.BasePath = "https://payment-processor.api.gogemini.io";
+            // Configure API key authorization: Authorization
+            config.AddApiKey("Authorization", "YOUR_API_KEY");
+            // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
+            // config.AddApiKeyPrefix("Authorization", "Bearer");
 
             var apiInstance = new PaymentprocessorApi(config);
             var body = new PaymentprocessorFinalizePaymentRequest(); // PaymentprocessorFinalizePaymentRequest | 
@@ -280,7 +292,7 @@ catch (ApiException e)
 
 ### Authorization
 
-No authorization required
+[Authorization](../README.md#Authorization)
 
 ### HTTP request headers
 
@@ -320,6 +332,10 @@ namespace Example
         {
             Configuration config = new Configuration();
             config.BasePath = "https://payment-processor.api.gogemini.io";
+            // Configure API key authorization: Authorization
+            config.AddApiKey("Authorization", "YOUR_API_KEY");
+            // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
+            // config.AddApiKeyPrefix("Authorization", "Bearer");
 
             var apiInstance = new PaymentprocessorApi(config);
             var body = new PaymentprocessorGetAvailablePaymentMethodRequest(); // PaymentprocessorGetAvailablePaymentMethodRequest | 
@@ -373,7 +389,7 @@ catch (ApiException e)
 
 ### Authorization
 
-No authorization required
+[Authorization](../README.md#Authorization)
 
 ### HTTP request headers
 
@@ -413,6 +429,10 @@ namespace Example
         {
             Configuration config = new Configuration();
             config.BasePath = "https://payment-processor.api.gogemini.io";
+            // Configure API key authorization: Authorization
+            config.AddApiKey("Authorization", "YOUR_API_KEY");
+            // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
+            // config.AddApiKeyPrefix("Authorization", "Bearer");
 
             var apiInstance = new PaymentprocessorApi(config);
             var body = new PaymentprocessorGetPaymentMethodRequest(); // PaymentprocessorGetPaymentMethodRequest | 
@@ -466,7 +486,7 @@ catch (ApiException e)
 
 ### Authorization
 
-No authorization required
+[Authorization](../README.md#Authorization)
 
 ### HTTP request headers
 
@@ -506,6 +526,10 @@ namespace Example
         {
             Configuration config = new Configuration();
             config.BasePath = "https://payment-processor.api.gogemini.io";
+            // Configure API key authorization: Authorization
+            config.AddApiKey("Authorization", "YOUR_API_KEY");
+            // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
+            // config.AddApiKeyPrefix("Authorization", "Bearer");
 
             var apiInstance = new PaymentprocessorApi(config);
             var body = new PaymentprocessorGetPaymentMethodConfigurationRequest(); // PaymentprocessorGetPaymentMethodConfigurationRequest | 
@@ -559,7 +583,7 @@ catch (ApiException e)
 
 ### Authorization
 
-No authorization required
+[Authorization](../README.md#Authorization)
 
 ### HTTP request headers
 
@@ -599,6 +623,10 @@ namespace Example
         {
             Configuration config = new Configuration();
             config.BasePath = "https://payment-processor.api.gogemini.io";
+            // Configure API key authorization: Authorization
+            config.AddApiKey("Authorization", "YOUR_API_KEY");
+            // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
+            // config.AddApiKeyPrefix("Authorization", "Bearer");
 
             var apiInstance = new PaymentprocessorApi(config);
             var body = new PaymentprocessorInitPaymentRequest(); // PaymentprocessorInitPaymentRequest | 
@@ -652,7 +680,7 @@ catch (ApiException e)
 
 ### Authorization
 
-No authorization required
+[Authorization](../README.md#Authorization)
 
 ### HTTP request headers
 
@@ -692,6 +720,10 @@ namespace Example
         {
             Configuration config = new Configuration();
             config.BasePath = "https://payment-processor.api.gogemini.io";
+            // Configure API key authorization: Authorization
+            config.AddApiKey("Authorization", "YOUR_API_KEY");
+            // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
+            // config.AddApiKeyPrefix("Authorization", "Bearer");
 
             var apiInstance = new PaymentprocessorApi(config);
             var body = new PaymentprocessorListAvailablePaymentMethodsRequest(); // PaymentprocessorListAvailablePaymentMethodsRequest | 
@@ -745,7 +777,7 @@ catch (ApiException e)
 
 ### Authorization
 
-No authorization required
+[Authorization](../README.md#Authorization)
 
 ### HTTP request headers
 
@@ -785,6 +817,10 @@ namespace Example
         {
             Configuration config = new Configuration();
             config.BasePath = "https://payment-processor.api.gogemini.io";
+            // Configure API key authorization: Authorization
+            config.AddApiKey("Authorization", "YOUR_API_KEY");
+            // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
+            // config.AddApiKeyPrefix("Authorization", "Bearer");
 
             var apiInstance = new PaymentprocessorApi(config);
             var body = new PaymentprocessorListPaymentMethodsRequest(); // PaymentprocessorListPaymentMethodsRequest | 
@@ -838,7 +874,7 @@ catch (ApiException e)
 
 ### Authorization
 
-No authorization required
+[Authorization](../README.md#Authorization)
 
 ### HTTP request headers
 
@@ -878,6 +914,10 @@ namespace Example
         {
             Configuration config = new Configuration();
             config.BasePath = "https://payment-processor.api.gogemini.io";
+            // Configure API key authorization: Authorization
+            config.AddApiKey("Authorization", "YOUR_API_KEY");
+            // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
+            // config.AddApiKeyPrefix("Authorization", "Bearer");
 
             var apiInstance = new PaymentprocessorApi(config);
             var body = new PaymentprocessorPerformPaymentRequest(); // PaymentprocessorPerformPaymentRequest | 
@@ -931,7 +971,7 @@ catch (ApiException e)
 
 ### Authorization
 
-No authorization required
+[Authorization](../README.md#Authorization)
 
 ### HTTP request headers
 
@@ -971,6 +1011,10 @@ namespace Example
         {
             Configuration config = new Configuration();
             config.BasePath = "https://payment-processor.api.gogemini.io";
+            // Configure API key authorization: Authorization
+            config.AddApiKey("Authorization", "YOUR_API_KEY");
+            // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
+            // config.AddApiKeyPrefix("Authorization", "Bearer");
 
             var apiInstance = new PaymentprocessorApi(config);
             var body = new PaymentprocessorPerformRefundRequest(); // PaymentprocessorPerformRefundRequest | 
@@ -1024,7 +1068,7 @@ catch (ApiException e)
 
 ### Authorization
 
-No authorization required
+[Authorization](../README.md#Authorization)
 
 ### HTTP request headers
 
@@ -1064,6 +1108,10 @@ namespace Example
         {
             Configuration config = new Configuration();
             config.BasePath = "https://payment-processor.api.gogemini.io";
+            // Configure API key authorization: Authorization
+            config.AddApiKey("Authorization", "YOUR_API_KEY");
+            // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
+            // config.AddApiKeyPrefix("Authorization", "Bearer");
 
             var apiInstance = new PaymentprocessorApi(config);
             var body = new PaymentprocessorUpdatePaymentRequest(); // PaymentprocessorUpdatePaymentRequest | 
@@ -1117,7 +1165,7 @@ catch (ApiException e)
 
 ### Authorization
 
-No authorization required
+[Authorization](../README.md#Authorization)
 
 ### HTTP request headers
 
@@ -1157,6 +1205,10 @@ namespace Example
         {
             Configuration config = new Configuration();
             config.BasePath = "https://payment-processor.api.gogemini.io";
+            // Configure API key authorization: Authorization
+            config.AddApiKey("Authorization", "YOUR_API_KEY");
+            // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
+            // config.AddApiKeyPrefix("Authorization", "Bearer");
 
             var apiInstance = new PaymentprocessorApi(config);
             var body = new PaymentprocessorUpdatePaymentMethodRequest(); // PaymentprocessorUpdatePaymentMethodRequest | 
@@ -1210,7 +1262,7 @@ catch (ApiException e)
 
 ### Authorization
 
-No authorization required
+[Authorization](../README.md#Authorization)
 
 ### HTTP request headers
 
@@ -1250,6 +1302,10 @@ namespace Example
         {
             Configuration config = new Configuration();
             config.BasePath = "https://payment-processor.api.gogemini.io";
+            // Configure API key authorization: Authorization
+            config.AddApiKey("Authorization", "YOUR_API_KEY");
+            // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
+            // config.AddApiKeyPrefix("Authorization", "Bearer");
 
             var apiInstance = new PaymentprocessorApi(config);
             var body = new PaymentprocessorVoidPaymentRequest(); // PaymentprocessorVoidPaymentRequest | 
@@ -1303,7 +1359,7 @@ catch (ApiException e)
 
 ### Authorization
 
-No authorization required
+[Authorization](../README.md#Authorization)
 
 ### HTTP request headers
 

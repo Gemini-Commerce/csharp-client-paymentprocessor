@@ -16,6 +16,7 @@ using System.Linq;
 using System.Net;
 using System.Net.Mime;
 using paymentprocessor.Client;
+using paymentprocessor.Client.Auth;
 using paymentprocessor.Model;
 
 namespace paymentprocessor.Api
@@ -842,6 +843,11 @@ namespace paymentprocessor.Api
             localVarRequestOptions.Operation = "PaymentprocessorApi.AuthorizePayment";
             localVarRequestOptions.OperationIndex = operationIndex;
 
+            // authentication (Authorization) required
+            if (!string.IsNullOrEmpty(this.Configuration.GetApiKeyWithPrefix("Authorization")))
+            {
+                localVarRequestOptions.HeaderParameters.Add("Authorization", this.Configuration.GetApiKeyWithPrefix("Authorization"));
+            }
 
             // make the HTTP request
             var localVarResponse = this.Client.Post<PaymentprocessorAuthorizePaymentResponse>("/paymentprocessor.Paymentprocessor/AuthorizePayment", localVarRequestOptions, this.Configuration);
@@ -916,6 +922,11 @@ namespace paymentprocessor.Api
             localVarRequestOptions.Operation = "PaymentprocessorApi.AuthorizePayment";
             localVarRequestOptions.OperationIndex = operationIndex;
 
+            // authentication (Authorization) required
+            if (!string.IsNullOrEmpty(this.Configuration.GetApiKeyWithPrefix("Authorization")))
+            {
+                localVarRequestOptions.HeaderParameters.Add("Authorization", this.Configuration.GetApiKeyWithPrefix("Authorization"));
+            }
 
             // make the HTTP request
             var localVarResponse = await this.AsynchronousClient.PostAsync<PaymentprocessorAuthorizePaymentResponse>("/paymentprocessor.Paymentprocessor/AuthorizePayment", localVarRequestOptions, this.Configuration, cancellationToken).ConfigureAwait(false);
@@ -988,6 +999,11 @@ namespace paymentprocessor.Api
             localVarRequestOptions.Operation = "PaymentprocessorApi.CreatePaymentMethod";
             localVarRequestOptions.OperationIndex = operationIndex;
 
+            // authentication (Authorization) required
+            if (!string.IsNullOrEmpty(this.Configuration.GetApiKeyWithPrefix("Authorization")))
+            {
+                localVarRequestOptions.HeaderParameters.Add("Authorization", this.Configuration.GetApiKeyWithPrefix("Authorization"));
+            }
 
             // make the HTTP request
             var localVarResponse = this.Client.Post<PaymentprocessorPaymentMethod>("/paymentprocessor.Paymentprocessor/CreatePaymentMethod", localVarRequestOptions, this.Configuration);
@@ -1062,6 +1078,11 @@ namespace paymentprocessor.Api
             localVarRequestOptions.Operation = "PaymentprocessorApi.CreatePaymentMethod";
             localVarRequestOptions.OperationIndex = operationIndex;
 
+            // authentication (Authorization) required
+            if (!string.IsNullOrEmpty(this.Configuration.GetApiKeyWithPrefix("Authorization")))
+            {
+                localVarRequestOptions.HeaderParameters.Add("Authorization", this.Configuration.GetApiKeyWithPrefix("Authorization"));
+            }
 
             // make the HTTP request
             var localVarResponse = await this.AsynchronousClient.PostAsync<PaymentprocessorPaymentMethod>("/paymentprocessor.Paymentprocessor/CreatePaymentMethod", localVarRequestOptions, this.Configuration, cancellationToken).ConfigureAwait(false);
@@ -1134,6 +1155,11 @@ namespace paymentprocessor.Api
             localVarRequestOptions.Operation = "PaymentprocessorApi.FinalizePayment";
             localVarRequestOptions.OperationIndex = operationIndex;
 
+            // authentication (Authorization) required
+            if (!string.IsNullOrEmpty(this.Configuration.GetApiKeyWithPrefix("Authorization")))
+            {
+                localVarRequestOptions.HeaderParameters.Add("Authorization", this.Configuration.GetApiKeyWithPrefix("Authorization"));
+            }
 
             // make the HTTP request
             var localVarResponse = this.Client.Post<PaymentprocessorFinalizePaymentResponse>("/paymentprocessor.Paymentprocessor/FinalizePayment", localVarRequestOptions, this.Configuration);
@@ -1208,6 +1234,11 @@ namespace paymentprocessor.Api
             localVarRequestOptions.Operation = "PaymentprocessorApi.FinalizePayment";
             localVarRequestOptions.OperationIndex = operationIndex;
 
+            // authentication (Authorization) required
+            if (!string.IsNullOrEmpty(this.Configuration.GetApiKeyWithPrefix("Authorization")))
+            {
+                localVarRequestOptions.HeaderParameters.Add("Authorization", this.Configuration.GetApiKeyWithPrefix("Authorization"));
+            }
 
             // make the HTTP request
             var localVarResponse = await this.AsynchronousClient.PostAsync<PaymentprocessorFinalizePaymentResponse>("/paymentprocessor.Paymentprocessor/FinalizePayment", localVarRequestOptions, this.Configuration, cancellationToken).ConfigureAwait(false);
@@ -1280,6 +1311,11 @@ namespace paymentprocessor.Api
             localVarRequestOptions.Operation = "PaymentprocessorApi.GetAvailablePaymentMethod";
             localVarRequestOptions.OperationIndex = operationIndex;
 
+            // authentication (Authorization) required
+            if (!string.IsNullOrEmpty(this.Configuration.GetApiKeyWithPrefix("Authorization")))
+            {
+                localVarRequestOptions.HeaderParameters.Add("Authorization", this.Configuration.GetApiKeyWithPrefix("Authorization"));
+            }
 
             // make the HTTP request
             var localVarResponse = this.Client.Post<PaymentprocessorPaymentMethod>("/paymentprocessor.Paymentprocessor/GetAvailablePaymentMethod", localVarRequestOptions, this.Configuration);
@@ -1354,6 +1390,11 @@ namespace paymentprocessor.Api
             localVarRequestOptions.Operation = "PaymentprocessorApi.GetAvailablePaymentMethod";
             localVarRequestOptions.OperationIndex = operationIndex;
 
+            // authentication (Authorization) required
+            if (!string.IsNullOrEmpty(this.Configuration.GetApiKeyWithPrefix("Authorization")))
+            {
+                localVarRequestOptions.HeaderParameters.Add("Authorization", this.Configuration.GetApiKeyWithPrefix("Authorization"));
+            }
 
             // make the HTTP request
             var localVarResponse = await this.AsynchronousClient.PostAsync<PaymentprocessorPaymentMethod>("/paymentprocessor.Paymentprocessor/GetAvailablePaymentMethod", localVarRequestOptions, this.Configuration, cancellationToken).ConfigureAwait(false);
@@ -1426,6 +1467,11 @@ namespace paymentprocessor.Api
             localVarRequestOptions.Operation = "PaymentprocessorApi.GetPaymentMethod";
             localVarRequestOptions.OperationIndex = operationIndex;
 
+            // authentication (Authorization) required
+            if (!string.IsNullOrEmpty(this.Configuration.GetApiKeyWithPrefix("Authorization")))
+            {
+                localVarRequestOptions.HeaderParameters.Add("Authorization", this.Configuration.GetApiKeyWithPrefix("Authorization"));
+            }
 
             // make the HTTP request
             var localVarResponse = this.Client.Post<PaymentprocessorPaymentMethod>("/paymentprocessor.Paymentprocessor/GetPaymentMethod", localVarRequestOptions, this.Configuration);
@@ -1500,6 +1546,11 @@ namespace paymentprocessor.Api
             localVarRequestOptions.Operation = "PaymentprocessorApi.GetPaymentMethod";
             localVarRequestOptions.OperationIndex = operationIndex;
 
+            // authentication (Authorization) required
+            if (!string.IsNullOrEmpty(this.Configuration.GetApiKeyWithPrefix("Authorization")))
+            {
+                localVarRequestOptions.HeaderParameters.Add("Authorization", this.Configuration.GetApiKeyWithPrefix("Authorization"));
+            }
 
             // make the HTTP request
             var localVarResponse = await this.AsynchronousClient.PostAsync<PaymentprocessorPaymentMethod>("/paymentprocessor.Paymentprocessor/GetPaymentMethod", localVarRequestOptions, this.Configuration, cancellationToken).ConfigureAwait(false);
@@ -1572,6 +1623,11 @@ namespace paymentprocessor.Api
             localVarRequestOptions.Operation = "PaymentprocessorApi.GetPaymentMethodConfiguration";
             localVarRequestOptions.OperationIndex = operationIndex;
 
+            // authentication (Authorization) required
+            if (!string.IsNullOrEmpty(this.Configuration.GetApiKeyWithPrefix("Authorization")))
+            {
+                localVarRequestOptions.HeaderParameters.Add("Authorization", this.Configuration.GetApiKeyWithPrefix("Authorization"));
+            }
 
             // make the HTTP request
             var localVarResponse = this.Client.Post<PaymentprocessorGetPaymentMethodConfigurationResponse>("/paymentprocessor.Paymentprocessor/GetPaymentMethodConfiguration", localVarRequestOptions, this.Configuration);
@@ -1646,6 +1702,11 @@ namespace paymentprocessor.Api
             localVarRequestOptions.Operation = "PaymentprocessorApi.GetPaymentMethodConfiguration";
             localVarRequestOptions.OperationIndex = operationIndex;
 
+            // authentication (Authorization) required
+            if (!string.IsNullOrEmpty(this.Configuration.GetApiKeyWithPrefix("Authorization")))
+            {
+                localVarRequestOptions.HeaderParameters.Add("Authorization", this.Configuration.GetApiKeyWithPrefix("Authorization"));
+            }
 
             // make the HTTP request
             var localVarResponse = await this.AsynchronousClient.PostAsync<PaymentprocessorGetPaymentMethodConfigurationResponse>("/paymentprocessor.Paymentprocessor/GetPaymentMethodConfiguration", localVarRequestOptions, this.Configuration, cancellationToken).ConfigureAwait(false);
@@ -1718,6 +1779,11 @@ namespace paymentprocessor.Api
             localVarRequestOptions.Operation = "PaymentprocessorApi.InitPayment";
             localVarRequestOptions.OperationIndex = operationIndex;
 
+            // authentication (Authorization) required
+            if (!string.IsNullOrEmpty(this.Configuration.GetApiKeyWithPrefix("Authorization")))
+            {
+                localVarRequestOptions.HeaderParameters.Add("Authorization", this.Configuration.GetApiKeyWithPrefix("Authorization"));
+            }
 
             // make the HTTP request
             var localVarResponse = this.Client.Post<PaymentprocessorInitPaymentResponse>("/paymentprocessor.Paymentprocessor/InitPayment", localVarRequestOptions, this.Configuration);
@@ -1792,6 +1858,11 @@ namespace paymentprocessor.Api
             localVarRequestOptions.Operation = "PaymentprocessorApi.InitPayment";
             localVarRequestOptions.OperationIndex = operationIndex;
 
+            // authentication (Authorization) required
+            if (!string.IsNullOrEmpty(this.Configuration.GetApiKeyWithPrefix("Authorization")))
+            {
+                localVarRequestOptions.HeaderParameters.Add("Authorization", this.Configuration.GetApiKeyWithPrefix("Authorization"));
+            }
 
             // make the HTTP request
             var localVarResponse = await this.AsynchronousClient.PostAsync<PaymentprocessorInitPaymentResponse>("/paymentprocessor.Paymentprocessor/InitPayment", localVarRequestOptions, this.Configuration, cancellationToken).ConfigureAwait(false);
@@ -1864,6 +1935,11 @@ namespace paymentprocessor.Api
             localVarRequestOptions.Operation = "PaymentprocessorApi.ListAvailablePaymentMethods";
             localVarRequestOptions.OperationIndex = operationIndex;
 
+            // authentication (Authorization) required
+            if (!string.IsNullOrEmpty(this.Configuration.GetApiKeyWithPrefix("Authorization")))
+            {
+                localVarRequestOptions.HeaderParameters.Add("Authorization", this.Configuration.GetApiKeyWithPrefix("Authorization"));
+            }
 
             // make the HTTP request
             var localVarResponse = this.Client.Post<PaymentprocessorListAvailablePaymentMethodsResponse>("/paymentprocessor.Paymentprocessor/ListAvailablePaymentMethods", localVarRequestOptions, this.Configuration);
@@ -1938,6 +2014,11 @@ namespace paymentprocessor.Api
             localVarRequestOptions.Operation = "PaymentprocessorApi.ListAvailablePaymentMethods";
             localVarRequestOptions.OperationIndex = operationIndex;
 
+            // authentication (Authorization) required
+            if (!string.IsNullOrEmpty(this.Configuration.GetApiKeyWithPrefix("Authorization")))
+            {
+                localVarRequestOptions.HeaderParameters.Add("Authorization", this.Configuration.GetApiKeyWithPrefix("Authorization"));
+            }
 
             // make the HTTP request
             var localVarResponse = await this.AsynchronousClient.PostAsync<PaymentprocessorListAvailablePaymentMethodsResponse>("/paymentprocessor.Paymentprocessor/ListAvailablePaymentMethods", localVarRequestOptions, this.Configuration, cancellationToken).ConfigureAwait(false);
@@ -2010,6 +2091,11 @@ namespace paymentprocessor.Api
             localVarRequestOptions.Operation = "PaymentprocessorApi.ListPaymentMethods";
             localVarRequestOptions.OperationIndex = operationIndex;
 
+            // authentication (Authorization) required
+            if (!string.IsNullOrEmpty(this.Configuration.GetApiKeyWithPrefix("Authorization")))
+            {
+                localVarRequestOptions.HeaderParameters.Add("Authorization", this.Configuration.GetApiKeyWithPrefix("Authorization"));
+            }
 
             // make the HTTP request
             var localVarResponse = this.Client.Post<PaymentprocessorListPaymentMethodsResponse>("/paymentprocessor.Paymentprocessor/ListPaymentMethods", localVarRequestOptions, this.Configuration);
@@ -2084,6 +2170,11 @@ namespace paymentprocessor.Api
             localVarRequestOptions.Operation = "PaymentprocessorApi.ListPaymentMethods";
             localVarRequestOptions.OperationIndex = operationIndex;
 
+            // authentication (Authorization) required
+            if (!string.IsNullOrEmpty(this.Configuration.GetApiKeyWithPrefix("Authorization")))
+            {
+                localVarRequestOptions.HeaderParameters.Add("Authorization", this.Configuration.GetApiKeyWithPrefix("Authorization"));
+            }
 
             // make the HTTP request
             var localVarResponse = await this.AsynchronousClient.PostAsync<PaymentprocessorListPaymentMethodsResponse>("/paymentprocessor.Paymentprocessor/ListPaymentMethods", localVarRequestOptions, this.Configuration, cancellationToken).ConfigureAwait(false);
@@ -2156,6 +2247,11 @@ namespace paymentprocessor.Api
             localVarRequestOptions.Operation = "PaymentprocessorApi.PerformPayment";
             localVarRequestOptions.OperationIndex = operationIndex;
 
+            // authentication (Authorization) required
+            if (!string.IsNullOrEmpty(this.Configuration.GetApiKeyWithPrefix("Authorization")))
+            {
+                localVarRequestOptions.HeaderParameters.Add("Authorization", this.Configuration.GetApiKeyWithPrefix("Authorization"));
+            }
 
             // make the HTTP request
             var localVarResponse = this.Client.Post<PaymentprocessorPerformPaymentResponse>("/paymentprocessor.Paymentprocessor/PerformPayment", localVarRequestOptions, this.Configuration);
@@ -2230,6 +2326,11 @@ namespace paymentprocessor.Api
             localVarRequestOptions.Operation = "PaymentprocessorApi.PerformPayment";
             localVarRequestOptions.OperationIndex = operationIndex;
 
+            // authentication (Authorization) required
+            if (!string.IsNullOrEmpty(this.Configuration.GetApiKeyWithPrefix("Authorization")))
+            {
+                localVarRequestOptions.HeaderParameters.Add("Authorization", this.Configuration.GetApiKeyWithPrefix("Authorization"));
+            }
 
             // make the HTTP request
             var localVarResponse = await this.AsynchronousClient.PostAsync<PaymentprocessorPerformPaymentResponse>("/paymentprocessor.Paymentprocessor/PerformPayment", localVarRequestOptions, this.Configuration, cancellationToken).ConfigureAwait(false);
@@ -2302,6 +2403,11 @@ namespace paymentprocessor.Api
             localVarRequestOptions.Operation = "PaymentprocessorApi.PerformRefund";
             localVarRequestOptions.OperationIndex = operationIndex;
 
+            // authentication (Authorization) required
+            if (!string.IsNullOrEmpty(this.Configuration.GetApiKeyWithPrefix("Authorization")))
+            {
+                localVarRequestOptions.HeaderParameters.Add("Authorization", this.Configuration.GetApiKeyWithPrefix("Authorization"));
+            }
 
             // make the HTTP request
             var localVarResponse = this.Client.Post<Object>("/paymentprocessor.Paymentprocessor/PerformRefund", localVarRequestOptions, this.Configuration);
@@ -2376,6 +2482,11 @@ namespace paymentprocessor.Api
             localVarRequestOptions.Operation = "PaymentprocessorApi.PerformRefund";
             localVarRequestOptions.OperationIndex = operationIndex;
 
+            // authentication (Authorization) required
+            if (!string.IsNullOrEmpty(this.Configuration.GetApiKeyWithPrefix("Authorization")))
+            {
+                localVarRequestOptions.HeaderParameters.Add("Authorization", this.Configuration.GetApiKeyWithPrefix("Authorization"));
+            }
 
             // make the HTTP request
             var localVarResponse = await this.AsynchronousClient.PostAsync<Object>("/paymentprocessor.Paymentprocessor/PerformRefund", localVarRequestOptions, this.Configuration, cancellationToken).ConfigureAwait(false);
@@ -2448,6 +2559,11 @@ namespace paymentprocessor.Api
             localVarRequestOptions.Operation = "PaymentprocessorApi.UpdatePayment";
             localVarRequestOptions.OperationIndex = operationIndex;
 
+            // authentication (Authorization) required
+            if (!string.IsNullOrEmpty(this.Configuration.GetApiKeyWithPrefix("Authorization")))
+            {
+                localVarRequestOptions.HeaderParameters.Add("Authorization", this.Configuration.GetApiKeyWithPrefix("Authorization"));
+            }
 
             // make the HTTP request
             var localVarResponse = this.Client.Post<Object>("/paymentprocessor.Paymentprocessor/UpdatePayment", localVarRequestOptions, this.Configuration);
@@ -2522,6 +2638,11 @@ namespace paymentprocessor.Api
             localVarRequestOptions.Operation = "PaymentprocessorApi.UpdatePayment";
             localVarRequestOptions.OperationIndex = operationIndex;
 
+            // authentication (Authorization) required
+            if (!string.IsNullOrEmpty(this.Configuration.GetApiKeyWithPrefix("Authorization")))
+            {
+                localVarRequestOptions.HeaderParameters.Add("Authorization", this.Configuration.GetApiKeyWithPrefix("Authorization"));
+            }
 
             // make the HTTP request
             var localVarResponse = await this.AsynchronousClient.PostAsync<Object>("/paymentprocessor.Paymentprocessor/UpdatePayment", localVarRequestOptions, this.Configuration, cancellationToken).ConfigureAwait(false);
@@ -2594,6 +2715,11 @@ namespace paymentprocessor.Api
             localVarRequestOptions.Operation = "PaymentprocessorApi.UpdatePaymentMethod";
             localVarRequestOptions.OperationIndex = operationIndex;
 
+            // authentication (Authorization) required
+            if (!string.IsNullOrEmpty(this.Configuration.GetApiKeyWithPrefix("Authorization")))
+            {
+                localVarRequestOptions.HeaderParameters.Add("Authorization", this.Configuration.GetApiKeyWithPrefix("Authorization"));
+            }
 
             // make the HTTP request
             var localVarResponse = this.Client.Post<PaymentprocessorPaymentMethod>("/paymentprocessor.Paymentprocessor/UpdatePaymentMethod", localVarRequestOptions, this.Configuration);
@@ -2668,6 +2794,11 @@ namespace paymentprocessor.Api
             localVarRequestOptions.Operation = "PaymentprocessorApi.UpdatePaymentMethod";
             localVarRequestOptions.OperationIndex = operationIndex;
 
+            // authentication (Authorization) required
+            if (!string.IsNullOrEmpty(this.Configuration.GetApiKeyWithPrefix("Authorization")))
+            {
+                localVarRequestOptions.HeaderParameters.Add("Authorization", this.Configuration.GetApiKeyWithPrefix("Authorization"));
+            }
 
             // make the HTTP request
             var localVarResponse = await this.AsynchronousClient.PostAsync<PaymentprocessorPaymentMethod>("/paymentprocessor.Paymentprocessor/UpdatePaymentMethod", localVarRequestOptions, this.Configuration, cancellationToken).ConfigureAwait(false);
@@ -2740,6 +2871,11 @@ namespace paymentprocessor.Api
             localVarRequestOptions.Operation = "PaymentprocessorApi.VoidPayment";
             localVarRequestOptions.OperationIndex = operationIndex;
 
+            // authentication (Authorization) required
+            if (!string.IsNullOrEmpty(this.Configuration.GetApiKeyWithPrefix("Authorization")))
+            {
+                localVarRequestOptions.HeaderParameters.Add("Authorization", this.Configuration.GetApiKeyWithPrefix("Authorization"));
+            }
 
             // make the HTTP request
             var localVarResponse = this.Client.Post<PaymentprocessorVoidPaymentResponse>("/paymentprocessor.Paymentprocessor/VoidPayment", localVarRequestOptions, this.Configuration);
@@ -2814,6 +2950,11 @@ namespace paymentprocessor.Api
             localVarRequestOptions.Operation = "PaymentprocessorApi.VoidPayment";
             localVarRequestOptions.OperationIndex = operationIndex;
 
+            // authentication (Authorization) required
+            if (!string.IsNullOrEmpty(this.Configuration.GetApiKeyWithPrefix("Authorization")))
+            {
+                localVarRequestOptions.HeaderParameters.Add("Authorization", this.Configuration.GetApiKeyWithPrefix("Authorization"));
+            }
 
             // make the HTTP request
             var localVarResponse = await this.AsynchronousClient.PostAsync<PaymentprocessorVoidPaymentResponse>("/paymentprocessor.Paymentprocessor/VoidPayment", localVarRequestOptions, this.Configuration, cancellationToken).ConfigureAwait(false);

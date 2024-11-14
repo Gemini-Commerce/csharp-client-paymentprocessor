@@ -42,7 +42,10 @@ namespace paymentprocessor.Model
         /// Initializes a new instance of the <see cref="PaymentprocessorInitPaymentRequest" /> class.
         /// </summary>
         [JsonConstructorAttribute]
-        protected PaymentprocessorInitPaymentRequest() { }
+        protected PaymentprocessorInitPaymentRequest()
+        {
+            this.AdditionalProperties = new Dictionary<string, object>();
+        }
         /// <summary>
         /// Initializes a new instance of the <see cref="PaymentprocessorInitPaymentRequest" /> class.
         /// </summary>
@@ -70,6 +73,7 @@ namespace paymentprocessor.Model
             this.Amount = amount;
             this.Currency = currency;
             this.AdditionalInfo = additionalInfo;
+            this.AdditionalProperties = new Dictionary<string, object>();
         }
 
         /// <summary>
@@ -103,6 +107,12 @@ namespace paymentprocessor.Model
         public string AdditionalInfo { get; set; }
 
         /// <summary>
+        /// Gets or Sets additional properties
+        /// </summary>
+        [JsonExtensionData]
+        public IDictionary<string, object> AdditionalProperties { get; set; }
+
+        /// <summary>
         /// Returns the string presentation of the object
         /// </summary>
         /// <returns>String presentation of the object</returns>
@@ -116,6 +126,7 @@ namespace paymentprocessor.Model
             sb.Append("  Amount: ").Append(Amount).Append("\n");
             sb.Append("  Currency: ").Append(Currency).Append("\n");
             sb.Append("  AdditionalInfo: ").Append(AdditionalInfo).Append("\n");
+            sb.Append("  AdditionalProperties: ").Append(AdditionalProperties).Append("\n");
             sb.Append("}\n");
             return sb.ToString();
         }
@@ -134,7 +145,7 @@ namespace paymentprocessor.Model
         /// </summary>
         /// <param name="validationContext">Validation context</param>
         /// <returns>Validation Result</returns>
-        IEnumerable<System.ComponentModel.DataAnnotations.ValidationResult> IValidatableObject.Validate(ValidationContext validationContext)
+        IEnumerable<ValidationResult> IValidatableObject.Validate(ValidationContext validationContext)
         {
             yield break;
         }

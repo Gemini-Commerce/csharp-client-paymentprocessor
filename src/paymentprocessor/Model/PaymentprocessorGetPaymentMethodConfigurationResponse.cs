@@ -39,6 +39,7 @@ namespace paymentprocessor.Model
         public PaymentprocessorGetPaymentMethodConfigurationResponse(Object varConfiguration = default(Object))
         {
             this.VarConfiguration = varConfiguration;
+            this.AdditionalProperties = new Dictionary<string, object>();
         }
 
         /// <summary>
@@ -46,6 +47,12 @@ namespace paymentprocessor.Model
         /// </summary>
         [DataMember(Name = "configuration", EmitDefaultValue = false)]
         public Object VarConfiguration { get; set; }
+
+        /// <summary>
+        /// Gets or Sets additional properties
+        /// </summary>
+        [JsonExtensionData]
+        public IDictionary<string, object> AdditionalProperties { get; set; }
 
         /// <summary>
         /// Returns the string presentation of the object
@@ -56,6 +63,7 @@ namespace paymentprocessor.Model
             StringBuilder sb = new StringBuilder();
             sb.Append("class PaymentprocessorGetPaymentMethodConfigurationResponse {\n");
             sb.Append("  VarConfiguration: ").Append(VarConfiguration).Append("\n");
+            sb.Append("  AdditionalProperties: ").Append(AdditionalProperties).Append("\n");
             sb.Append("}\n");
             return sb.ToString();
         }
@@ -74,7 +82,7 @@ namespace paymentprocessor.Model
         /// </summary>
         /// <param name="validationContext">Validation context</param>
         /// <returns>Validation Result</returns>
-        IEnumerable<System.ComponentModel.DataAnnotations.ValidationResult> IValidatableObject.Validate(ValidationContext validationContext)
+        IEnumerable<ValidationResult> IValidatableObject.Validate(ValidationContext validationContext)
         {
             yield break;
         }

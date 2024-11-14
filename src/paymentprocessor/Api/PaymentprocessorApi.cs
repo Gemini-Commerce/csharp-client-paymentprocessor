@@ -328,7 +328,7 @@ namespace paymentprocessor.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of PaymentprocessorAuthorizePaymentResponse</returns>
-        System.Threading.Tasks.Task<PaymentprocessorAuthorizePaymentResponse> AuthorizePaymentAsync(PaymentprocessorAuthorizePaymentRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken));
+        System.Threading.Tasks.Task<PaymentprocessorAuthorizePaymentResponse> AuthorizePaymentAsync(PaymentprocessorAuthorizePaymentRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken));
 
         /// <summary>
         /// Authorize Payment
@@ -341,7 +341,7 @@ namespace paymentprocessor.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of ApiResponse (PaymentprocessorAuthorizePaymentResponse)</returns>
-        System.Threading.Tasks.Task<ApiResponse<PaymentprocessorAuthorizePaymentResponse>> AuthorizePaymentWithHttpInfoAsync(PaymentprocessorAuthorizePaymentRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken));
+        System.Threading.Tasks.Task<ApiResponse<PaymentprocessorAuthorizePaymentResponse>> AuthorizePaymentWithHttpInfoAsync(PaymentprocessorAuthorizePaymentRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken));
         /// <summary>
         /// Create Payment Method
         /// </summary>
@@ -353,7 +353,7 @@ namespace paymentprocessor.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of PaymentprocessorPaymentMethod</returns>
-        System.Threading.Tasks.Task<PaymentprocessorPaymentMethod> CreatePaymentMethodAsync(PaymentprocessorCreatePaymentMethodRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken));
+        System.Threading.Tasks.Task<PaymentprocessorPaymentMethod> CreatePaymentMethodAsync(PaymentprocessorCreatePaymentMethodRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken));
 
         /// <summary>
         /// Create Payment Method
@@ -366,7 +366,7 @@ namespace paymentprocessor.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of ApiResponse (PaymentprocessorPaymentMethod)</returns>
-        System.Threading.Tasks.Task<ApiResponse<PaymentprocessorPaymentMethod>> CreatePaymentMethodWithHttpInfoAsync(PaymentprocessorCreatePaymentMethodRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken));
+        System.Threading.Tasks.Task<ApiResponse<PaymentprocessorPaymentMethod>> CreatePaymentMethodWithHttpInfoAsync(PaymentprocessorCreatePaymentMethodRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken));
         /// <summary>
         /// Finalize Payment
         /// </summary>
@@ -378,7 +378,7 @@ namespace paymentprocessor.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of PaymentprocessorFinalizePaymentResponse</returns>
-        System.Threading.Tasks.Task<PaymentprocessorFinalizePaymentResponse> FinalizePaymentAsync(PaymentprocessorFinalizePaymentRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken));
+        System.Threading.Tasks.Task<PaymentprocessorFinalizePaymentResponse> FinalizePaymentAsync(PaymentprocessorFinalizePaymentRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken));
 
         /// <summary>
         /// Finalize Payment
@@ -391,7 +391,7 @@ namespace paymentprocessor.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of ApiResponse (PaymentprocessorFinalizePaymentResponse)</returns>
-        System.Threading.Tasks.Task<ApiResponse<PaymentprocessorFinalizePaymentResponse>> FinalizePaymentWithHttpInfoAsync(PaymentprocessorFinalizePaymentRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken));
+        System.Threading.Tasks.Task<ApiResponse<PaymentprocessorFinalizePaymentResponse>> FinalizePaymentWithHttpInfoAsync(PaymentprocessorFinalizePaymentRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken));
         /// <summary>
         /// Get Available Payment Method
         /// </summary>
@@ -403,7 +403,7 @@ namespace paymentprocessor.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of PaymentprocessorPaymentMethod</returns>
-        System.Threading.Tasks.Task<PaymentprocessorPaymentMethod> GetAvailablePaymentMethodAsync(PaymentprocessorGetAvailablePaymentMethodRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken));
+        System.Threading.Tasks.Task<PaymentprocessorPaymentMethod> GetAvailablePaymentMethodAsync(PaymentprocessorGetAvailablePaymentMethodRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken));
 
         /// <summary>
         /// Get Available Payment Method
@@ -416,7 +416,7 @@ namespace paymentprocessor.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of ApiResponse (PaymentprocessorPaymentMethod)</returns>
-        System.Threading.Tasks.Task<ApiResponse<PaymentprocessorPaymentMethod>> GetAvailablePaymentMethodWithHttpInfoAsync(PaymentprocessorGetAvailablePaymentMethodRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken));
+        System.Threading.Tasks.Task<ApiResponse<PaymentprocessorPaymentMethod>> GetAvailablePaymentMethodWithHttpInfoAsync(PaymentprocessorGetAvailablePaymentMethodRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken));
         /// <summary>
         /// Get Payment Method
         /// </summary>
@@ -428,7 +428,7 @@ namespace paymentprocessor.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of PaymentprocessorPaymentMethod</returns>
-        System.Threading.Tasks.Task<PaymentprocessorPaymentMethod> GetPaymentMethodAsync(PaymentprocessorGetPaymentMethodRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken));
+        System.Threading.Tasks.Task<PaymentprocessorPaymentMethod> GetPaymentMethodAsync(PaymentprocessorGetPaymentMethodRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken));
 
         /// <summary>
         /// Get Payment Method
@@ -441,7 +441,7 @@ namespace paymentprocessor.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of ApiResponse (PaymentprocessorPaymentMethod)</returns>
-        System.Threading.Tasks.Task<ApiResponse<PaymentprocessorPaymentMethod>> GetPaymentMethodWithHttpInfoAsync(PaymentprocessorGetPaymentMethodRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken));
+        System.Threading.Tasks.Task<ApiResponse<PaymentprocessorPaymentMethod>> GetPaymentMethodWithHttpInfoAsync(PaymentprocessorGetPaymentMethodRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken));
         /// <summary>
         /// Get Payment Method Configuration
         /// </summary>
@@ -453,7 +453,7 @@ namespace paymentprocessor.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of PaymentprocessorGetPaymentMethodConfigurationResponse</returns>
-        System.Threading.Tasks.Task<PaymentprocessorGetPaymentMethodConfigurationResponse> GetPaymentMethodConfigurationAsync(PaymentprocessorGetPaymentMethodConfigurationRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken));
+        System.Threading.Tasks.Task<PaymentprocessorGetPaymentMethodConfigurationResponse> GetPaymentMethodConfigurationAsync(PaymentprocessorGetPaymentMethodConfigurationRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken));
 
         /// <summary>
         /// Get Payment Method Configuration
@@ -466,7 +466,7 @@ namespace paymentprocessor.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of ApiResponse (PaymentprocessorGetPaymentMethodConfigurationResponse)</returns>
-        System.Threading.Tasks.Task<ApiResponse<PaymentprocessorGetPaymentMethodConfigurationResponse>> GetPaymentMethodConfigurationWithHttpInfoAsync(PaymentprocessorGetPaymentMethodConfigurationRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken));
+        System.Threading.Tasks.Task<ApiResponse<PaymentprocessorGetPaymentMethodConfigurationResponse>> GetPaymentMethodConfigurationWithHttpInfoAsync(PaymentprocessorGetPaymentMethodConfigurationRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken));
         /// <summary>
         /// Init Payment
         /// </summary>
@@ -478,7 +478,7 @@ namespace paymentprocessor.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of PaymentprocessorInitPaymentResponse</returns>
-        System.Threading.Tasks.Task<PaymentprocessorInitPaymentResponse> InitPaymentAsync(PaymentprocessorInitPaymentRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken));
+        System.Threading.Tasks.Task<PaymentprocessorInitPaymentResponse> InitPaymentAsync(PaymentprocessorInitPaymentRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken));
 
         /// <summary>
         /// Init Payment
@@ -491,7 +491,7 @@ namespace paymentprocessor.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of ApiResponse (PaymentprocessorInitPaymentResponse)</returns>
-        System.Threading.Tasks.Task<ApiResponse<PaymentprocessorInitPaymentResponse>> InitPaymentWithHttpInfoAsync(PaymentprocessorInitPaymentRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken));
+        System.Threading.Tasks.Task<ApiResponse<PaymentprocessorInitPaymentResponse>> InitPaymentWithHttpInfoAsync(PaymentprocessorInitPaymentRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken));
         /// <summary>
         /// List Available Payment Methods
         /// </summary>
@@ -503,7 +503,7 @@ namespace paymentprocessor.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of PaymentprocessorListAvailablePaymentMethodsResponse</returns>
-        System.Threading.Tasks.Task<PaymentprocessorListAvailablePaymentMethodsResponse> ListAvailablePaymentMethodsAsync(PaymentprocessorListAvailablePaymentMethodsRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken));
+        System.Threading.Tasks.Task<PaymentprocessorListAvailablePaymentMethodsResponse> ListAvailablePaymentMethodsAsync(PaymentprocessorListAvailablePaymentMethodsRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken));
 
         /// <summary>
         /// List Available Payment Methods
@@ -516,7 +516,7 @@ namespace paymentprocessor.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of ApiResponse (PaymentprocessorListAvailablePaymentMethodsResponse)</returns>
-        System.Threading.Tasks.Task<ApiResponse<PaymentprocessorListAvailablePaymentMethodsResponse>> ListAvailablePaymentMethodsWithHttpInfoAsync(PaymentprocessorListAvailablePaymentMethodsRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken));
+        System.Threading.Tasks.Task<ApiResponse<PaymentprocessorListAvailablePaymentMethodsResponse>> ListAvailablePaymentMethodsWithHttpInfoAsync(PaymentprocessorListAvailablePaymentMethodsRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken));
         /// <summary>
         /// List Payment Methods
         /// </summary>
@@ -528,7 +528,7 @@ namespace paymentprocessor.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of PaymentprocessorListPaymentMethodsResponse</returns>
-        System.Threading.Tasks.Task<PaymentprocessorListPaymentMethodsResponse> ListPaymentMethodsAsync(PaymentprocessorListPaymentMethodsRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken));
+        System.Threading.Tasks.Task<PaymentprocessorListPaymentMethodsResponse> ListPaymentMethodsAsync(PaymentprocessorListPaymentMethodsRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken));
 
         /// <summary>
         /// List Payment Methods
@@ -541,7 +541,7 @@ namespace paymentprocessor.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of ApiResponse (PaymentprocessorListPaymentMethodsResponse)</returns>
-        System.Threading.Tasks.Task<ApiResponse<PaymentprocessorListPaymentMethodsResponse>> ListPaymentMethodsWithHttpInfoAsync(PaymentprocessorListPaymentMethodsRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken));
+        System.Threading.Tasks.Task<ApiResponse<PaymentprocessorListPaymentMethodsResponse>> ListPaymentMethodsWithHttpInfoAsync(PaymentprocessorListPaymentMethodsRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken));
         /// <summary>
         /// Perform Payment
         /// </summary>
@@ -553,7 +553,7 @@ namespace paymentprocessor.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of PaymentprocessorPerformPaymentResponse</returns>
-        System.Threading.Tasks.Task<PaymentprocessorPerformPaymentResponse> PerformPaymentAsync(PaymentprocessorPerformPaymentRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken));
+        System.Threading.Tasks.Task<PaymentprocessorPerformPaymentResponse> PerformPaymentAsync(PaymentprocessorPerformPaymentRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken));
 
         /// <summary>
         /// Perform Payment
@@ -566,7 +566,7 @@ namespace paymentprocessor.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of ApiResponse (PaymentprocessorPerformPaymentResponse)</returns>
-        System.Threading.Tasks.Task<ApiResponse<PaymentprocessorPerformPaymentResponse>> PerformPaymentWithHttpInfoAsync(PaymentprocessorPerformPaymentRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken));
+        System.Threading.Tasks.Task<ApiResponse<PaymentprocessorPerformPaymentResponse>> PerformPaymentWithHttpInfoAsync(PaymentprocessorPerformPaymentRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken));
         /// <summary>
         /// Perform Refund
         /// </summary>
@@ -578,7 +578,7 @@ namespace paymentprocessor.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of Object</returns>
-        System.Threading.Tasks.Task<Object> PerformRefundAsync(PaymentprocessorPerformRefundRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken));
+        System.Threading.Tasks.Task<Object> PerformRefundAsync(PaymentprocessorPerformRefundRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken));
 
         /// <summary>
         /// Perform Refund
@@ -591,7 +591,7 @@ namespace paymentprocessor.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of ApiResponse (Object)</returns>
-        System.Threading.Tasks.Task<ApiResponse<Object>> PerformRefundWithHttpInfoAsync(PaymentprocessorPerformRefundRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken));
+        System.Threading.Tasks.Task<ApiResponse<Object>> PerformRefundWithHttpInfoAsync(PaymentprocessorPerformRefundRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken));
         /// <summary>
         /// Update Payment
         /// </summary>
@@ -603,7 +603,7 @@ namespace paymentprocessor.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of Object</returns>
-        System.Threading.Tasks.Task<Object> UpdatePaymentAsync(PaymentprocessorUpdatePaymentRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken));
+        System.Threading.Tasks.Task<Object> UpdatePaymentAsync(PaymentprocessorUpdatePaymentRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken));
 
         /// <summary>
         /// Update Payment
@@ -616,7 +616,7 @@ namespace paymentprocessor.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of ApiResponse (Object)</returns>
-        System.Threading.Tasks.Task<ApiResponse<Object>> UpdatePaymentWithHttpInfoAsync(PaymentprocessorUpdatePaymentRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken));
+        System.Threading.Tasks.Task<ApiResponse<Object>> UpdatePaymentWithHttpInfoAsync(PaymentprocessorUpdatePaymentRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken));
         /// <summary>
         /// Update Payment Method
         /// </summary>
@@ -628,7 +628,7 @@ namespace paymentprocessor.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of PaymentprocessorPaymentMethod</returns>
-        System.Threading.Tasks.Task<PaymentprocessorPaymentMethod> UpdatePaymentMethodAsync(PaymentprocessorUpdatePaymentMethodRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken));
+        System.Threading.Tasks.Task<PaymentprocessorPaymentMethod> UpdatePaymentMethodAsync(PaymentprocessorUpdatePaymentMethodRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken));
 
         /// <summary>
         /// Update Payment Method
@@ -641,7 +641,7 @@ namespace paymentprocessor.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of ApiResponse (PaymentprocessorPaymentMethod)</returns>
-        System.Threading.Tasks.Task<ApiResponse<PaymentprocessorPaymentMethod>> UpdatePaymentMethodWithHttpInfoAsync(PaymentprocessorUpdatePaymentMethodRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken));
+        System.Threading.Tasks.Task<ApiResponse<PaymentprocessorPaymentMethod>> UpdatePaymentMethodWithHttpInfoAsync(PaymentprocessorUpdatePaymentMethodRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken));
         /// <summary>
         /// Void Payment
         /// </summary>
@@ -653,7 +653,7 @@ namespace paymentprocessor.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of PaymentprocessorVoidPaymentResponse</returns>
-        System.Threading.Tasks.Task<PaymentprocessorVoidPaymentResponse> VoidPaymentAsync(PaymentprocessorVoidPaymentRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken));
+        System.Threading.Tasks.Task<PaymentprocessorVoidPaymentResponse> VoidPaymentAsync(PaymentprocessorVoidPaymentRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken));
 
         /// <summary>
         /// Void Payment
@@ -666,7 +666,7 @@ namespace paymentprocessor.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of ApiResponse (PaymentprocessorVoidPaymentResponse)</returns>
-        System.Threading.Tasks.Task<ApiResponse<PaymentprocessorVoidPaymentResponse>> VoidPaymentWithHttpInfoAsync(PaymentprocessorVoidPaymentRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken));
+        System.Threading.Tasks.Task<ApiResponse<PaymentprocessorVoidPaymentResponse>> VoidPaymentWithHttpInfoAsync(PaymentprocessorVoidPaymentRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken));
         #endregion Asynchronous Operations
     }
 
@@ -871,7 +871,7 @@ namespace paymentprocessor.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of PaymentprocessorAuthorizePaymentResponse</returns>
-        public async System.Threading.Tasks.Task<PaymentprocessorAuthorizePaymentResponse> AuthorizePaymentAsync(PaymentprocessorAuthorizePaymentRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken))
+        public async System.Threading.Tasks.Task<PaymentprocessorAuthorizePaymentResponse> AuthorizePaymentAsync(PaymentprocessorAuthorizePaymentRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
         {
             paymentprocessor.Client.ApiResponse<PaymentprocessorAuthorizePaymentResponse> localVarResponse = await AuthorizePaymentWithHttpInfoAsync(body, operationIndex, cancellationToken).ConfigureAwait(false);
             return localVarResponse.Data;
@@ -885,7 +885,7 @@ namespace paymentprocessor.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of ApiResponse (PaymentprocessorAuthorizePaymentResponse)</returns>
-        public async System.Threading.Tasks.Task<paymentprocessor.Client.ApiResponse<PaymentprocessorAuthorizePaymentResponse>> AuthorizePaymentWithHttpInfoAsync(PaymentprocessorAuthorizePaymentRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken))
+        public async System.Threading.Tasks.Task<paymentprocessor.Client.ApiResponse<PaymentprocessorAuthorizePaymentResponse>> AuthorizePaymentWithHttpInfoAsync(PaymentprocessorAuthorizePaymentRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
         {
             // verify the required parameter 'body' is set
             if (body == null)
@@ -1027,7 +1027,7 @@ namespace paymentprocessor.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of PaymentprocessorPaymentMethod</returns>
-        public async System.Threading.Tasks.Task<PaymentprocessorPaymentMethod> CreatePaymentMethodAsync(PaymentprocessorCreatePaymentMethodRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken))
+        public async System.Threading.Tasks.Task<PaymentprocessorPaymentMethod> CreatePaymentMethodAsync(PaymentprocessorCreatePaymentMethodRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
         {
             paymentprocessor.Client.ApiResponse<PaymentprocessorPaymentMethod> localVarResponse = await CreatePaymentMethodWithHttpInfoAsync(body, operationIndex, cancellationToken).ConfigureAwait(false);
             return localVarResponse.Data;
@@ -1041,7 +1041,7 @@ namespace paymentprocessor.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of ApiResponse (PaymentprocessorPaymentMethod)</returns>
-        public async System.Threading.Tasks.Task<paymentprocessor.Client.ApiResponse<PaymentprocessorPaymentMethod>> CreatePaymentMethodWithHttpInfoAsync(PaymentprocessorCreatePaymentMethodRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken))
+        public async System.Threading.Tasks.Task<paymentprocessor.Client.ApiResponse<PaymentprocessorPaymentMethod>> CreatePaymentMethodWithHttpInfoAsync(PaymentprocessorCreatePaymentMethodRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
         {
             // verify the required parameter 'body' is set
             if (body == null)
@@ -1183,7 +1183,7 @@ namespace paymentprocessor.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of PaymentprocessorFinalizePaymentResponse</returns>
-        public async System.Threading.Tasks.Task<PaymentprocessorFinalizePaymentResponse> FinalizePaymentAsync(PaymentprocessorFinalizePaymentRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken))
+        public async System.Threading.Tasks.Task<PaymentprocessorFinalizePaymentResponse> FinalizePaymentAsync(PaymentprocessorFinalizePaymentRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
         {
             paymentprocessor.Client.ApiResponse<PaymentprocessorFinalizePaymentResponse> localVarResponse = await FinalizePaymentWithHttpInfoAsync(body, operationIndex, cancellationToken).ConfigureAwait(false);
             return localVarResponse.Data;
@@ -1197,7 +1197,7 @@ namespace paymentprocessor.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of ApiResponse (PaymentprocessorFinalizePaymentResponse)</returns>
-        public async System.Threading.Tasks.Task<paymentprocessor.Client.ApiResponse<PaymentprocessorFinalizePaymentResponse>> FinalizePaymentWithHttpInfoAsync(PaymentprocessorFinalizePaymentRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken))
+        public async System.Threading.Tasks.Task<paymentprocessor.Client.ApiResponse<PaymentprocessorFinalizePaymentResponse>> FinalizePaymentWithHttpInfoAsync(PaymentprocessorFinalizePaymentRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
         {
             // verify the required parameter 'body' is set
             if (body == null)
@@ -1339,7 +1339,7 @@ namespace paymentprocessor.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of PaymentprocessorPaymentMethod</returns>
-        public async System.Threading.Tasks.Task<PaymentprocessorPaymentMethod> GetAvailablePaymentMethodAsync(PaymentprocessorGetAvailablePaymentMethodRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken))
+        public async System.Threading.Tasks.Task<PaymentprocessorPaymentMethod> GetAvailablePaymentMethodAsync(PaymentprocessorGetAvailablePaymentMethodRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
         {
             paymentprocessor.Client.ApiResponse<PaymentprocessorPaymentMethod> localVarResponse = await GetAvailablePaymentMethodWithHttpInfoAsync(body, operationIndex, cancellationToken).ConfigureAwait(false);
             return localVarResponse.Data;
@@ -1353,7 +1353,7 @@ namespace paymentprocessor.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of ApiResponse (PaymentprocessorPaymentMethod)</returns>
-        public async System.Threading.Tasks.Task<paymentprocessor.Client.ApiResponse<PaymentprocessorPaymentMethod>> GetAvailablePaymentMethodWithHttpInfoAsync(PaymentprocessorGetAvailablePaymentMethodRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken))
+        public async System.Threading.Tasks.Task<paymentprocessor.Client.ApiResponse<PaymentprocessorPaymentMethod>> GetAvailablePaymentMethodWithHttpInfoAsync(PaymentprocessorGetAvailablePaymentMethodRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
         {
             // verify the required parameter 'body' is set
             if (body == null)
@@ -1495,7 +1495,7 @@ namespace paymentprocessor.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of PaymentprocessorPaymentMethod</returns>
-        public async System.Threading.Tasks.Task<PaymentprocessorPaymentMethod> GetPaymentMethodAsync(PaymentprocessorGetPaymentMethodRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken))
+        public async System.Threading.Tasks.Task<PaymentprocessorPaymentMethod> GetPaymentMethodAsync(PaymentprocessorGetPaymentMethodRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
         {
             paymentprocessor.Client.ApiResponse<PaymentprocessorPaymentMethod> localVarResponse = await GetPaymentMethodWithHttpInfoAsync(body, operationIndex, cancellationToken).ConfigureAwait(false);
             return localVarResponse.Data;
@@ -1509,7 +1509,7 @@ namespace paymentprocessor.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of ApiResponse (PaymentprocessorPaymentMethod)</returns>
-        public async System.Threading.Tasks.Task<paymentprocessor.Client.ApiResponse<PaymentprocessorPaymentMethod>> GetPaymentMethodWithHttpInfoAsync(PaymentprocessorGetPaymentMethodRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken))
+        public async System.Threading.Tasks.Task<paymentprocessor.Client.ApiResponse<PaymentprocessorPaymentMethod>> GetPaymentMethodWithHttpInfoAsync(PaymentprocessorGetPaymentMethodRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
         {
             // verify the required parameter 'body' is set
             if (body == null)
@@ -1651,7 +1651,7 @@ namespace paymentprocessor.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of PaymentprocessorGetPaymentMethodConfigurationResponse</returns>
-        public async System.Threading.Tasks.Task<PaymentprocessorGetPaymentMethodConfigurationResponse> GetPaymentMethodConfigurationAsync(PaymentprocessorGetPaymentMethodConfigurationRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken))
+        public async System.Threading.Tasks.Task<PaymentprocessorGetPaymentMethodConfigurationResponse> GetPaymentMethodConfigurationAsync(PaymentprocessorGetPaymentMethodConfigurationRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
         {
             paymentprocessor.Client.ApiResponse<PaymentprocessorGetPaymentMethodConfigurationResponse> localVarResponse = await GetPaymentMethodConfigurationWithHttpInfoAsync(body, operationIndex, cancellationToken).ConfigureAwait(false);
             return localVarResponse.Data;
@@ -1665,7 +1665,7 @@ namespace paymentprocessor.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of ApiResponse (PaymentprocessorGetPaymentMethodConfigurationResponse)</returns>
-        public async System.Threading.Tasks.Task<paymentprocessor.Client.ApiResponse<PaymentprocessorGetPaymentMethodConfigurationResponse>> GetPaymentMethodConfigurationWithHttpInfoAsync(PaymentprocessorGetPaymentMethodConfigurationRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken))
+        public async System.Threading.Tasks.Task<paymentprocessor.Client.ApiResponse<PaymentprocessorGetPaymentMethodConfigurationResponse>> GetPaymentMethodConfigurationWithHttpInfoAsync(PaymentprocessorGetPaymentMethodConfigurationRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
         {
             // verify the required parameter 'body' is set
             if (body == null)
@@ -1807,7 +1807,7 @@ namespace paymentprocessor.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of PaymentprocessorInitPaymentResponse</returns>
-        public async System.Threading.Tasks.Task<PaymentprocessorInitPaymentResponse> InitPaymentAsync(PaymentprocessorInitPaymentRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken))
+        public async System.Threading.Tasks.Task<PaymentprocessorInitPaymentResponse> InitPaymentAsync(PaymentprocessorInitPaymentRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
         {
             paymentprocessor.Client.ApiResponse<PaymentprocessorInitPaymentResponse> localVarResponse = await InitPaymentWithHttpInfoAsync(body, operationIndex, cancellationToken).ConfigureAwait(false);
             return localVarResponse.Data;
@@ -1821,7 +1821,7 @@ namespace paymentprocessor.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of ApiResponse (PaymentprocessorInitPaymentResponse)</returns>
-        public async System.Threading.Tasks.Task<paymentprocessor.Client.ApiResponse<PaymentprocessorInitPaymentResponse>> InitPaymentWithHttpInfoAsync(PaymentprocessorInitPaymentRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken))
+        public async System.Threading.Tasks.Task<paymentprocessor.Client.ApiResponse<PaymentprocessorInitPaymentResponse>> InitPaymentWithHttpInfoAsync(PaymentprocessorInitPaymentRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
         {
             // verify the required parameter 'body' is set
             if (body == null)
@@ -1963,7 +1963,7 @@ namespace paymentprocessor.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of PaymentprocessorListAvailablePaymentMethodsResponse</returns>
-        public async System.Threading.Tasks.Task<PaymentprocessorListAvailablePaymentMethodsResponse> ListAvailablePaymentMethodsAsync(PaymentprocessorListAvailablePaymentMethodsRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken))
+        public async System.Threading.Tasks.Task<PaymentprocessorListAvailablePaymentMethodsResponse> ListAvailablePaymentMethodsAsync(PaymentprocessorListAvailablePaymentMethodsRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
         {
             paymentprocessor.Client.ApiResponse<PaymentprocessorListAvailablePaymentMethodsResponse> localVarResponse = await ListAvailablePaymentMethodsWithHttpInfoAsync(body, operationIndex, cancellationToken).ConfigureAwait(false);
             return localVarResponse.Data;
@@ -1977,7 +1977,7 @@ namespace paymentprocessor.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of ApiResponse (PaymentprocessorListAvailablePaymentMethodsResponse)</returns>
-        public async System.Threading.Tasks.Task<paymentprocessor.Client.ApiResponse<PaymentprocessorListAvailablePaymentMethodsResponse>> ListAvailablePaymentMethodsWithHttpInfoAsync(PaymentprocessorListAvailablePaymentMethodsRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken))
+        public async System.Threading.Tasks.Task<paymentprocessor.Client.ApiResponse<PaymentprocessorListAvailablePaymentMethodsResponse>> ListAvailablePaymentMethodsWithHttpInfoAsync(PaymentprocessorListAvailablePaymentMethodsRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
         {
             // verify the required parameter 'body' is set
             if (body == null)
@@ -2119,7 +2119,7 @@ namespace paymentprocessor.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of PaymentprocessorListPaymentMethodsResponse</returns>
-        public async System.Threading.Tasks.Task<PaymentprocessorListPaymentMethodsResponse> ListPaymentMethodsAsync(PaymentprocessorListPaymentMethodsRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken))
+        public async System.Threading.Tasks.Task<PaymentprocessorListPaymentMethodsResponse> ListPaymentMethodsAsync(PaymentprocessorListPaymentMethodsRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
         {
             paymentprocessor.Client.ApiResponse<PaymentprocessorListPaymentMethodsResponse> localVarResponse = await ListPaymentMethodsWithHttpInfoAsync(body, operationIndex, cancellationToken).ConfigureAwait(false);
             return localVarResponse.Data;
@@ -2133,7 +2133,7 @@ namespace paymentprocessor.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of ApiResponse (PaymentprocessorListPaymentMethodsResponse)</returns>
-        public async System.Threading.Tasks.Task<paymentprocessor.Client.ApiResponse<PaymentprocessorListPaymentMethodsResponse>> ListPaymentMethodsWithHttpInfoAsync(PaymentprocessorListPaymentMethodsRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken))
+        public async System.Threading.Tasks.Task<paymentprocessor.Client.ApiResponse<PaymentprocessorListPaymentMethodsResponse>> ListPaymentMethodsWithHttpInfoAsync(PaymentprocessorListPaymentMethodsRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
         {
             // verify the required parameter 'body' is set
             if (body == null)
@@ -2275,7 +2275,7 @@ namespace paymentprocessor.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of PaymentprocessorPerformPaymentResponse</returns>
-        public async System.Threading.Tasks.Task<PaymentprocessorPerformPaymentResponse> PerformPaymentAsync(PaymentprocessorPerformPaymentRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken))
+        public async System.Threading.Tasks.Task<PaymentprocessorPerformPaymentResponse> PerformPaymentAsync(PaymentprocessorPerformPaymentRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
         {
             paymentprocessor.Client.ApiResponse<PaymentprocessorPerformPaymentResponse> localVarResponse = await PerformPaymentWithHttpInfoAsync(body, operationIndex, cancellationToken).ConfigureAwait(false);
             return localVarResponse.Data;
@@ -2289,7 +2289,7 @@ namespace paymentprocessor.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of ApiResponse (PaymentprocessorPerformPaymentResponse)</returns>
-        public async System.Threading.Tasks.Task<paymentprocessor.Client.ApiResponse<PaymentprocessorPerformPaymentResponse>> PerformPaymentWithHttpInfoAsync(PaymentprocessorPerformPaymentRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken))
+        public async System.Threading.Tasks.Task<paymentprocessor.Client.ApiResponse<PaymentprocessorPerformPaymentResponse>> PerformPaymentWithHttpInfoAsync(PaymentprocessorPerformPaymentRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
         {
             // verify the required parameter 'body' is set
             if (body == null)
@@ -2431,7 +2431,7 @@ namespace paymentprocessor.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of Object</returns>
-        public async System.Threading.Tasks.Task<Object> PerformRefundAsync(PaymentprocessorPerformRefundRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken))
+        public async System.Threading.Tasks.Task<Object> PerformRefundAsync(PaymentprocessorPerformRefundRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
         {
             paymentprocessor.Client.ApiResponse<Object> localVarResponse = await PerformRefundWithHttpInfoAsync(body, operationIndex, cancellationToken).ConfigureAwait(false);
             return localVarResponse.Data;
@@ -2445,7 +2445,7 @@ namespace paymentprocessor.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of ApiResponse (Object)</returns>
-        public async System.Threading.Tasks.Task<paymentprocessor.Client.ApiResponse<Object>> PerformRefundWithHttpInfoAsync(PaymentprocessorPerformRefundRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken))
+        public async System.Threading.Tasks.Task<paymentprocessor.Client.ApiResponse<Object>> PerformRefundWithHttpInfoAsync(PaymentprocessorPerformRefundRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
         {
             // verify the required parameter 'body' is set
             if (body == null)
@@ -2587,7 +2587,7 @@ namespace paymentprocessor.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of Object</returns>
-        public async System.Threading.Tasks.Task<Object> UpdatePaymentAsync(PaymentprocessorUpdatePaymentRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken))
+        public async System.Threading.Tasks.Task<Object> UpdatePaymentAsync(PaymentprocessorUpdatePaymentRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
         {
             paymentprocessor.Client.ApiResponse<Object> localVarResponse = await UpdatePaymentWithHttpInfoAsync(body, operationIndex, cancellationToken).ConfigureAwait(false);
             return localVarResponse.Data;
@@ -2601,7 +2601,7 @@ namespace paymentprocessor.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of ApiResponse (Object)</returns>
-        public async System.Threading.Tasks.Task<paymentprocessor.Client.ApiResponse<Object>> UpdatePaymentWithHttpInfoAsync(PaymentprocessorUpdatePaymentRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken))
+        public async System.Threading.Tasks.Task<paymentprocessor.Client.ApiResponse<Object>> UpdatePaymentWithHttpInfoAsync(PaymentprocessorUpdatePaymentRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
         {
             // verify the required parameter 'body' is set
             if (body == null)
@@ -2743,7 +2743,7 @@ namespace paymentprocessor.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of PaymentprocessorPaymentMethod</returns>
-        public async System.Threading.Tasks.Task<PaymentprocessorPaymentMethod> UpdatePaymentMethodAsync(PaymentprocessorUpdatePaymentMethodRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken))
+        public async System.Threading.Tasks.Task<PaymentprocessorPaymentMethod> UpdatePaymentMethodAsync(PaymentprocessorUpdatePaymentMethodRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
         {
             paymentprocessor.Client.ApiResponse<PaymentprocessorPaymentMethod> localVarResponse = await UpdatePaymentMethodWithHttpInfoAsync(body, operationIndex, cancellationToken).ConfigureAwait(false);
             return localVarResponse.Data;
@@ -2757,7 +2757,7 @@ namespace paymentprocessor.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of ApiResponse (PaymentprocessorPaymentMethod)</returns>
-        public async System.Threading.Tasks.Task<paymentprocessor.Client.ApiResponse<PaymentprocessorPaymentMethod>> UpdatePaymentMethodWithHttpInfoAsync(PaymentprocessorUpdatePaymentMethodRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken))
+        public async System.Threading.Tasks.Task<paymentprocessor.Client.ApiResponse<PaymentprocessorPaymentMethod>> UpdatePaymentMethodWithHttpInfoAsync(PaymentprocessorUpdatePaymentMethodRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
         {
             // verify the required parameter 'body' is set
             if (body == null)
@@ -2899,7 +2899,7 @@ namespace paymentprocessor.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of PaymentprocessorVoidPaymentResponse</returns>
-        public async System.Threading.Tasks.Task<PaymentprocessorVoidPaymentResponse> VoidPaymentAsync(PaymentprocessorVoidPaymentRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken))
+        public async System.Threading.Tasks.Task<PaymentprocessorVoidPaymentResponse> VoidPaymentAsync(PaymentprocessorVoidPaymentRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
         {
             paymentprocessor.Client.ApiResponse<PaymentprocessorVoidPaymentResponse> localVarResponse = await VoidPaymentWithHttpInfoAsync(body, operationIndex, cancellationToken).ConfigureAwait(false);
             return localVarResponse.Data;
@@ -2913,7 +2913,7 @@ namespace paymentprocessor.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of ApiResponse (PaymentprocessorVoidPaymentResponse)</returns>
-        public async System.Threading.Tasks.Task<paymentprocessor.Client.ApiResponse<PaymentprocessorVoidPaymentResponse>> VoidPaymentWithHttpInfoAsync(PaymentprocessorVoidPaymentRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken))
+        public async System.Threading.Tasks.Task<paymentprocessor.Client.ApiResponse<PaymentprocessorVoidPaymentResponse>> VoidPaymentWithHttpInfoAsync(PaymentprocessorVoidPaymentRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
         {
             // verify the required parameter 'body' is set
             if (body == null)
